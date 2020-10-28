@@ -3,12 +3,11 @@
 # api
 flask>=1.1.1,<1.2.0
 
+-e 'D:\InterviewMaterialsAndResumes\Production_Deployment\Udemy_deployment\deploying-machine-learning-models-master\packages\regression_model'
+
 # schema validation
 marshmallow==2.17.0
 
-# Install from gemfury
-regression-model==2.0.20
-neural_network_model==0.1.1
 
 # Deployment
-gunicorn==19.9.0
+gunicorn==20.0.4
