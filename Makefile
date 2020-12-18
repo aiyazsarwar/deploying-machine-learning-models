@@ -1,5 +1,6 @@
 NAME=udemy-ml-apis
-COMMIT_ID=$(shell git rev-parse HEAD)
+COMMIT_ID=$("latest":)
+#(shell git rev-parse HEAD)
 
 
 build-ml-api-heroku:
